@@ -43,7 +43,7 @@ riverctl map normal Super+Shift Period send-to-output next
 riverctl map normal Super+Shift Comma send-to-output previous
 
 # Super+Return to spawn Terminator
-riverctl map normal Super Return spawn "paplay --volume=45536 $RIVERDIR/termbeep.wav & riverctl spawn konsole"
+riverctl map normal Super Return spawn "paplay --volume=45536 $RIVERDIR/termbeep.wav & riverctl spawn kitty"
 
 # Super+H and Super+L to decrease/increase the main ratio of rivertile(1)
 riverctl map normal Super H send-layout-cmd rivertile "main-ratio -0.05"
